@@ -1,0 +1,41 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<modelVersion>4.0.0</modelVersion>
+<groupId>com.github.lsjwzh.RecyclerViewPager</groupId>
+<artifactId>lib</artifactId>
+<version>v1.1.2</version>
+<packaging>aar</packaging>
+<name>lsjwzh/RecyclerViewPager</name>
+<description>
+A ViewPager implemention base on RecyclerView's code. Support fling operation like gallary.
+</description>
+<url>https://github.com/lsjwzh/RecyclerViewPager</url>
+<inceptionYear>2015</inceptionYear>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+<url>https://api.github.com/licenses/apache-2.0</url>
+<distribution>repo</distribution>
+</license>
+</licenses>
+<developers>
+<developer>
+<id>lsjwzh</id>
+<name>lsjwzh</name>
+<email>lsjwzh@gmail.com</email>
+</developer>
+</developers>
+<scm>
+<connection>scm:git://github.com/lsjwzh/RecyclerViewPager.git</connection>
+<developerConnection>scm:git://github.com/lsjwzh/RecyclerViewPager.git</developerConnection>
+<url>git://github.com/lsjwzh/RecyclerViewPager.git</url>
+</scm>
+<dependencies>
+<dependency>
+<groupId>com.android.support</groupId>
+<artifactId>recyclerview-v7</artifactId>
+<version>23.3.0</version>
+<scope>compile</scope>
+</dependency>
+</dependencies>
+</project>
